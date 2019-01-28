@@ -9,6 +9,8 @@
   background-color:#cbd6e2;
   text-align: center;
   line-height: 100px;
+  position: sticky;
+  top: 0;
 }
 .left>button{
   color: #33475b;
@@ -77,9 +79,10 @@ nav{
 }
 
 main {
-    height: 500px;
+    height: 800px;
     background-image:linear-gradient(to top right, #425b76, #0091b0, #00a4bd, #7fd1de);
     border-bottom: 3px solid #33475b;
+
 
 }
 .position>h1,.position>p{
@@ -99,4 +102,9 @@ main {
   font-size: 1em;
   margin-top: 2em;
   margin-bottom: 2em;
+}
+
+#c{
+  text-align: right;
+
 }
