@@ -167,3 +167,53 @@ body>.middlebar{
   padding-right: 10px;
   padding-top: 20px;
 }
+
+.container-tre{
+  width: 80%;
+  margin: auto ;
+  margin-top:20px;
+
+  }
+
+.container-tre:after{
+  display: table;
+  content: '';
+  clear: both;
+}
+
+.container-tre>.sinistra,.container-tre>.centro,.container-tre>.destra{
+
+  float: left;
+  width: 30%;
+  background-color: white;
+}
+
+.container-tre>.centro{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.container-tre>.destra>img,.container-tre>.sinistra>img,.container-tre>.centro>img{
+  width: 50%;
+}
+
+.testo,.pallocchi{
+  font-size: 15px;
+  margin-left: 10%;
+  margin-right:10%;
+  text-align: left;
+  margin-bottom: 10px;
+}
+hr{
+  border-color: lightgrey;
+  margin-left: 10%;
+  margin-right:10%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+
+.container-quattro{
+  background-color: lightblue;
+}
