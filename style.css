@@ -204,16 +204,49 @@ body>.middlebar{
   text-align: left;
   margin-bottom: 10px;
 }
-hr{
+.sinistra>hr,.centro>hr,.destra>hr{
   border-color: lightgrey;
   margin-left: 10%;
   margin-right:10%;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+.container-quattro{
+  background-color: #606e8c;
+  text-align: center;
+}
+.tiesto{
+  padding-top: 100px;
+  padding-bottom:100px;
+}
+.tiesto>h2,.tiesto>h6{
+  color:white;
+  width: 50%;
+  margin: auto;
+}
+.sopra:after{
+  display: table;
+  content: '';
+  clear: both;
+}
+.sopra>.uno,.sopra>.due,.sopra>.tre,.sopra>.quattro{
+  float: left;
+  width: 25%;
 
 }
 
+.uno>img,.due>img,.tre>img,.quattro>img{
+  padding-top:20px;
+  width: 50px;
+}
 
-.container-quattro{
-  background-color: lightblue;
+.uno>h2,.uno>h5,.due>h2,.due>h5,.tre>h2,.tre>h5,.quattro>h2,.quattro>h5{
+  color:white;
+  padding-top:10px;
+}
+
+.uno>hr,.due>hr,.tre>hr,.quattro>hr{
+  margin-top:20px;
+  margin-bottom: 20px;
+  color:white;
 }
