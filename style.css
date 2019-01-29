@@ -79,7 +79,7 @@ nav{
 }
 
 main {
-    height: 800px;
+    height: 1000px;
     background-image:linear-gradient(to top right, #425b76, #0091b0, #00a4bd, #7fd1de);
     border-bottom: 3px solid #33475b;
 
@@ -91,14 +91,14 @@ main {
   color: white;
 }
 
+.position{
+  width: 100%;
+}
 .position>h1{
   font-size: 60px;
 }
 
 .position>p{
-  /* font-size: 20px;
-  padding-top: 30px;
-  font-style: normal; */
   font-size: 1em;
   margin-top: 2em;
   margin-bottom: 2em;
@@ -107,4 +107,19 @@ main {
 #c{
   text-align: right;
 
+}
+
+.position>button{
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: white;
+
+}
+
+#testopiccolo{
+  width: 25%;
+}
+.container>img{
+  text-align: right;
 }
